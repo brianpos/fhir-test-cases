@@ -712,7 +712,7 @@ Any text enclosed within is ignored
 		<test name="testReplaceMatches4" inputfile="patient-example.xml"><expression>{}.replaceMatches('234', 'X').empty() = true</expression><output type="boolean">true</output></test>
 		<test name="testReplaceMatches5" inputfile="patient-example.xml"><expression>'123'.replaceMatches({}, 'X').empty() = true</expression><output type="boolean">true</output></test>
 		<test name="testReplaceMatches6" inputfile="patient-example.xml"><expression>'123'.replaceMatches('2', {}).empty() = true</expression><output type="boolean">true</output></test>
-		<test name="testReplaceMatches7" inputfile="patient-example.xml"><expression>'abc123'.replaceMatches('[0-9]', '-')</expression><output type="string">abc111</output></test>
+		<test name="testReplaceMatches7" inputfile="patient-example.xml"><expression>'abc123'.replaceMatches('[0-9]', '-')</expression><output type="string">abc---</output></test>
 	</group>
 
 	<group name="testReplace">
