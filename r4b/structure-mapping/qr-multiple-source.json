@@ -1,0 +1,36 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "MultiVarBug-QR",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-10-13T05:13:41.947+00:00",
+    "source": "#cIElrgX87hsvj2GB"
+  },
+  "questionnaire": "http://someurl.org",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/example",
+    "display": "COLIN ABBAS"
+  },
+  "authored": "2021-04-26T13:56:33.747Z",
+  "item": [ {
+    "linkId": "/71802-3",
+    "answer": [ {
+      "valueCoding": {
+        "system": "http://loinc.org",
+        "code": "LA31994-9"
+      }
+    }, {
+      "valueCoding": {
+        "system": "http://loinc.org",
+        "code": "LA31995-6"
+      }
+    }, {
+      "valueCoding": {
+        "system": "http://loinc.org",
+        "code": "LA31995-3"
+      }
+    }
+    ]
+  } ]
+}
